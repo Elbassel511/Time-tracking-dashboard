@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+body {
+  background-color: hsl(226, 43%, 10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.main-id {
+  background-color: #5746ea;
+}
+
+.id-card {
+  background-color: #1d204b;
+}
+
+.rounded-5 {
+  border-radius: 20px !important;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  opacity: 0.5;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.work {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  padding: 0px;
+  border: none;
+  outline: none;
+  z-index: 1;
+}
+
+.cardImg {
+  float: right;
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  right: 5%;
+  transform: translateY(-15%);
+  z-index: 2;
+}
+
+.cardBody {
+  background-color: hsl(235, 46%, 20%);
+  margin: 40px 0px 0px 0px;
+  z-index: 100;
+  width: 100%;
+  padding: 2rem;
+  height: 90%;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.cardBody:hover {
+  background-color: #34397b;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+._time {
+  font-size: 35px;
+  font-weight: 300;
+  padding: 0%;
+  margin: 0%;
+}
+
+.time-rang {
+  font-weight: 300;
+  opacity: 50%;
+  padding: auto;
+}
+
+.active {
+  opacity: 1 !important ;
+}
+
+.setting {
+  z-index: 2000;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+}
+
+.Excercise {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.social {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.self-care {
+  background-color: hsl(43, 84%, 65%);
+}
+
+.study {
+  background-color: hsl(348, 100%, 68%);
+}
